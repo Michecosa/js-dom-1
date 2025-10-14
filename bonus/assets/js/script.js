@@ -16,8 +16,8 @@ const srcLampOff = './assets/img/white_lamp.png';
 const bottone = document.querySelector('#bottone');
 
 bottone.addEventListener('click', function turnOnOff() {
-  const getLampId = document.getElementById('pic').getAttribute('src');
-  if (getLampId.includes(srcLampOff)) {
+  const getLampId = lampadina.getAttribute('src');
+  if (getLampId.includes('white_lamp.png')) {
     lampadina.src = srcLampOn;
   } else {
     lampadina.src = srcLampOff;
