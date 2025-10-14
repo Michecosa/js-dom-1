@@ -14,12 +14,10 @@ const lampadina = document.getElementById('pic');
 const srcLampOn = './assets/img/yellow_lamp.png';
 const srcLampOff = './assets/img/white_lamp.png';
 
-lampadina.addEventListener('click',
-  function turnOnOff(lamp) {
-    if(lamp.src === srcLampOff) {
-      lamp.src = srcLampOn;
-    } else {
-      lamp.src = srcLampOff;
-    }
+lampadina.addEventListener('click', function turnOnOff() {
+  if(this.src === srcLampOff) {
+    this.src = srcLampOn;
+  } else {
+    this.src = srcLampOff;
   }
-)
+})
