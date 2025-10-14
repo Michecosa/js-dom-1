@@ -15,13 +15,14 @@ const srcLampOn = './assets/img/yellow_lamp.png';
 const srcLampOff = './assets/img/white_lamp.png';
 const bottone = document.querySelector('#bottone');
 
-bottone.addEventListener('click', function turnOnOff() {
-  const getLampId = lampadina.getAttribute('src');
-  if (getLampId.includes('white_lamp.png')) {
-    lampadina.src = srcLampOn;
-    bottone.innerHTML = "Spegni"
-  } else {
-    lampadina.src = srcLampOff;
-    bottone.innerHTML = "Accendi"
-  }
+bottone.addEventListener('click', 
+  function turnOnOff() {
+    const getLampId = lampadina.getAttribute('src');
+    if (getLampId.includes('white_lamp.png')) {
+      lampadina.src = srcLampOn;
+      bottone.innerHTML = "Spegni"
+    } else {
+      lampadina.src = srcLampOff;
+      bottone.innerHTML = "Accendi"
+    }
 });
