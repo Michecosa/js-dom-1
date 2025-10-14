@@ -15,7 +15,11 @@ const srcLampOn = './assets/img/yellow_lamp.png';
 const srcLampOff = './assets/img/white_lamp.png';
 
 lampadina.addEventListener('click',
-  function turnOnOff() {
-    lampadina.src = './assets/img/yellow_lamp.png';
+  function turnOnOff(lamp) {
+    if(lamp.src === srcLampOff) {
+      lamp.src = srcLampOn;
+    } else {
+      lamp.src = srcLampOff;
+    }
   }
 )
