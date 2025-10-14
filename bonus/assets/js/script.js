@@ -19,7 +19,9 @@ bottone.addEventListener('click', function turnOnOff() {
   const getLampId = lampadina.getAttribute('src');
   if (getLampId.includes('white_lamp.png')) {
     lampadina.src = srcLampOn;
+    bottone.innerHTML = "Spegni"
   } else {
     lampadina.src = srcLampOff;
+    bottone.innerHTML = "Accendi"
   }
 });
