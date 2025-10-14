@@ -9,7 +9,11 @@ const lampadina = document.getElementById('pic');
 const bottone = document.querySelector('#bottone');
 
 /**
- * Funzione che, al click del bottone, cambia il src dell'immagine, simulando una lampadina che viene accesa
+ * @function turnOn
+ * @description Al click del bottone, cambia il src dell'immagine della lampadina,
+ *              simulando l'accensione
+ * 
+ * Non riceve parametri e non restituisce valori.
  */
 
 bottone.addEventListener('click',
