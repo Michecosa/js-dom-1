@@ -15,6 +15,15 @@ const srcLampOn = './assets/img/yellow_lamp.png';
 const srcLampOff = './assets/img/white_lamp.png';
 const bottone = document.querySelector('#bottone');
 
+/**
+ * @function turnOnOff
+ * @description Al click del bottone, cambia il src dell'immagine della lampadina,
+ *              simulando l'accensione o lo spegnimento. Aggiorna anche il testo del bottone
+ *              in base allo stato della lampadina.
+ * 
+ * Non riceve parametri e non restituisce valori.
+ */
+
 bottone.addEventListener('click', 
   function turnOnOff() {
     if (lampadina.src.includes('white_lamp.png')) {
