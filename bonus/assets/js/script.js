@@ -18,8 +18,8 @@ const bottone = document.querySelector('#bottone');
 /**
  * @function turnOnOff
  * @description Al click del bottone, cambia il src dell'immagine della lampadina,
- *              simulando l'accensione o lo spegnimento. Aggiorna anche il testo del bottone
- *              in base allo stato della lampadina.
+ * simulando l'accensione o lo spegnimento. Aggiorna anche il testo del bottone
+ * in base allo stato della lampadina.
  * 
  * Non riceve parametri e non restituisce valori.
  */
