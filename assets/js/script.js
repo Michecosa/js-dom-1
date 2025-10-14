@@ -8,6 +8,10 @@ Al click del bottone, la lampadina dovrà accendersi (dovremo quindi utilizzare 
 const lampadina = document.getElementById('pic');
 const bottone = document.querySelector('#bottone');
 
+/**
+ * Funzione che, al click del bottone, cambia il src dell'immagine, simulando una lampadina che viene accesa
+ */
+
 bottone.addEventListener('click',
   function turnOn() {
     lampadina.src = './assets/img/yellow_lamp.png';
