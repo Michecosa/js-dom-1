@@ -17,12 +17,11 @@ const bottone = document.querySelector('#bottone');
 
 bottone.addEventListener('click', 
   function turnOnOff() {
-    const getLampSrc = lampadina.getAttribute('src');
-    if (getLampSrc.includes('white_lamp.png')) {
+    if (lampadina.src.includes('white_lamp.png')) {
       lampadina.src = srcLampOn;
-      bottone.innerHTML = "Spegni"
+      bottone.innerHTML = "Spegni";
     } else {
       lampadina.src = srcLampOff;
-      bottone.innerHTML = "Accendi"
+      bottone.innerHTML = "Accendi";
     }
 });
