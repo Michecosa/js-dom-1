@@ -13,3 +13,5 @@ E così via...
 
 Per fare questo bonus potremmo aver bisogno di del metodo string.includes()
 */
+
+const lampadina = document.getElementById('pic');
