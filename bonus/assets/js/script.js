@@ -11,9 +11,11 @@ Per fare questo bonus potremmo aver bisogno di del metodo string.includes()
 */
 
 const lampadina = document.getElementById('pic');
+const srcLampOn = './assets/img/yellow_lamp.png';
+const srcLampOff = './assets/img/white_lamp.png';
 
 lampadina.addEventListener('click',
-  function turnOn() {
+  function turnOnOff() {
     lampadina.src = './assets/img/yellow_lamp.png';
   }
 )
