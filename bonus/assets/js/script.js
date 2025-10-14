@@ -15,9 +15,9 @@ const srcLampOn = './assets/img/yellow_lamp.png';
 const srcLampOff = './assets/img/white_lamp.png';
 
 lampadina.addEventListener('click', function turnOnOff() {
-  if(this.src === srcLampOff) {
-    this.src = srcLampOn;
+  if (lampadina.src.includes(srcLampOff)) {
+    lampadina.src = srcLampOn;
   } else {
-    this.src = srcLampOff;
+    lampadina.src = srcLampOff;
   }
-})
+});
