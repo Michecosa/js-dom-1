@@ -6,7 +6,7 @@ Al click del bottone, la lampadina dovrà accendersi (dovremo quindi utilizzare 
 */
 
 const lampadina = document.getElementById('pic');
-const bottone = document.querySelector('bottone');
+const bottone = document.querySelector('#bottone');
 
 bottone.addEventListener('click',
   function turnOn() {
