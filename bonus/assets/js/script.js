@@ -17,8 +17,8 @@ const bottone = document.querySelector('#bottone');
 
 bottone.addEventListener('click', 
   function turnOnOff() {
-    const getLampId = lampadina.getAttribute('src');
-    if (getLampId.includes('white_lamp.png')) {
+    const getLampSrc = lampadina.getAttribute('src');
+    if (getLampSrc.includes('white_lamp.png')) {
       lampadina.src = srcLampOn;
       bottone.innerHTML = "Spegni"
     } else {
